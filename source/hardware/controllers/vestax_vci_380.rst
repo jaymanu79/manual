@@ -78,13 +78,13 @@ Turn wheels without touching and with :hwlabel:`SHIFT` beatjump
 Turn wheels with :hwlabel:`JOG SCROLL`                 library scrolling
 ====================================================== =================================
 
-:hwlabel:`SYNC` / :hwlabel:`CUE` / :hwlabel:`>||`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:hwlabel:`SYNC` / :hwlabel:`CUE` / :hwlabel:`> / ||`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ================================================== =======================================================
 Key                                                Function
 ================================================== =======================================================
-:hwlabel:`>/\|\|`                                  play/pause
+:hwlabel:`> / ||`                                  play/pause
 :hwlabel:`SHIFT` + :hwlabel:`>/\|\|`               soft start / brake
 :hwlabel:`CUE`                                     go to cue point
 :hwlabel:`SHIFT` + :hwlabel:`CUE`                  set the cue point
