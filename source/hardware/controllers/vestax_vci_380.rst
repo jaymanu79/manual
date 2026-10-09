@@ -54,7 +54,7 @@ Mixer functions
 
 Main knobs and sliders work straightforwardly.
 
-Volume sliders, crossfader and :hwlabel:`FX DEPTH` have soft takeover enabled. The headphone cue buttons (:hwlabel:`CUE A` / :hwlabel:`CUE B`) toggle the headphone cue (PFL). The toggle is handled by the controller itself, and Mixxx follows its state.
+Volume sliders, crossfader and :hwlabel:`DEPTH` have soft takeover enabled. The headphone cue buttons (:hwlabel:`CUE A` / :hwlabel:`CUE B`) toggle the headphone cue (PFL). The toggle is handled by the controller itself, and Mixxx follows its state.
 
 Hold :hwlabel:`SHIFT` while turning EQ knobs (:hwlabel:`HIGH`/:hwlabel:`MID`/:hwlabel:`LOW`) for EQ kill mode: turning the EQ to the left side cuts the frequency range, turning to the right side re-enables it (all or nothing).
 
@@ -123,7 +123,7 @@ Turn right :hwlabel:`PAD FX`                                   move left/right
 :hwlabel:`SHIFT` + turn right :hwlabel:`PAD FX`                adjust waveform zoom
 :hwlabel:`SHIFT` + push :hwlabel:`PAD FX`                      clone other deck
 :hwlabel:`AREA` or push any :hwlabel:`PAD FX`                  default action
-push :hwlabel:`SCROLL`                                         change focus zone (:kbd:`TAB`)
+push :hwlabel:`SCROLL`                                         change focus zone (:hwlabel:`TAB`)
 :hwlabel:`SORT`                                                sort according to active column
 :hwlabel:`CUE A` / :hwlabel:`CUE B`                            toggle headphone cue (PFL) for deck A or B
 :hwlabel:`JOG SCROLL` + :hwlabel:`CUE A` / :hwlabel:`CUE B`    load selected track into deck A or B
@@ -150,7 +150,7 @@ Action                                             Effect
 turn :hwlabel:`FX SELECT`                          select a quick effect preset
 push :hwlabel:`FX SELECT`                          reset quick effect preset selection
 :hwlabel:`FX ON/OFF`                               toggle quick effect ON/OFF
-turn :hwlabel:`FX DEPTH`                           adjust the effect parameter ("superknob")
+turn :hwlabel:`DEPTH`                              adjust the effect parameter ("superknob")
 ================================================== =========================================
 
 Performance pads and strips
