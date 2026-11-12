@@ -374,10 +374,11 @@ a crate, or even the whole library) for tracks that match your search query.
 * Type your search term(s). Mixxx filters the tracks as you type and shows only
   those matching the search term(s). Search terms can include an artist's name,
   a song title, BPM, etc.
-* To clear the search string click the clear button right next to the input field.
-* Hit :kbd:`TAB` to cycle between the search and the list of results in the
-  library. Use the :kbd:`↑` and :kbd:`↓` keys to scroll in the
-  list of results.
+* To clear the search bar input field click the :guilabel:`X` button next to the
+  input field.
+* To quickly move from the search bar to the search results, you can either tap
+  :kbd:`ENTER` or :kbd:`TAB` until the focus is in the tracks list. Use the
+  :kbd:`↑` and :kbd:`↓` keys to scroll in the list of results.
 
 .. note:: If the search input field has focus, the Mixxx keyboard shortcuts are
           disabled, see :ref:`control-keyboard`.
@@ -715,7 +716,7 @@ The Auto DJ features in detail:
 * **Selection Info** label: Displays the duration and number of selected tracks.
   Press :kbd:`Ctrl` + :kbd:`A` to get the total duration of the AutoDJ queue.
 
-The :guilabel:`Skip track`, :guilabel:`Add Random` and :guilabel:`Fade now`
+The :guilabel:`Fade now` and :guilabel:`Skip track`
 buttons are only accessible if the Auto DJ mode is enabled. The Search field in
 the upper left corner is disabled in Auto DJ.
 
@@ -824,28 +825,32 @@ holding your favorite records.
 Right-click on an existing crate's name to access the different features in the
 context menu:
 
-* **Rename**: To rename a crate, enter the new crate name and click
+* :guilabel:`Create New Crate`: To create another crate.
+* :guilabel:`Rename`: To rename a crate, enter the new crate name and click
   :guilabel:`OK`.
-* **Duplicate**: Just like playlists you can duplicate an existing crate.
+* :guilabel:`Duplicate`: Just like playlists you can duplicate an existing crate.
   Select the crate you would like to duplicate, choose
   :guilabel:`Duplicate Crate`, name the new crate and click :guilabel:`OK`.
-* **Remove**: Removes an unlocked crate. Tracks in the crate are still available
-  in the library for later use.
-* **Lock**: |ic_lib_locked| This icon indicates a locked crate. If a crate is
+* :guilabel:`Remove`: Removes an unlocked crate. Tracks in the crate are still
+  available in the library for later use.
+* :guilabel:`Lock`: |ic_lib_locked| This icon indicates a locked crate. If a crate is
   locked, you cannot add tracks, rename or delete the crate. Choose
   :guilabel:`Unlock` from the context menu to unlock the crate.
-* **Auto DJ Track Source**: Use this crate as a source for random tracks in
-  Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>` .
-* **Analyze entire crate**: Forces the analysis of the crate in the
+* :guilabel:`Auto DJ Track Source`: Use this crate as a source for random tracks in
+  Auto DJ, see :ref:`Auto DJ crates <djing-auto-dj-crates>`.
+* :guilabel:`Analyze entire crate`: Forces the analysis of the crate in the
   :ref:`Analyze <library-analyze>` view.
-* **Import crate**: Import tracks from external playlists in various file
+* :guilabel:`Import crate`: Import tracks from external playlists in various file
   formats to the selected crate.
-* **Export crate**: Export a crate to various file formats, such as
+* :guilabel:`Export Crate as Playlist`: Export a crate to various file formats, such as
   :file:`m3u`, :file:`m3u8`, :file:`pls`, :file:`txt`, or :file:`csv`. This
   allows you to use the data in other applications.
-* **Export Track files**: This copies all of the tracks in a crate into a folder
+* :guilabel:`Export Track Files`: This copies all of the tracks in a crate into a folder
   such as an external USB stick. Only files are copied, not Mixxx-specific
   metadata like waveforms or cover art that is not embedded in the file.
+* :guilabel:`Export to Engine DJ`: This not only copies all of the tracks in a crate
+  into a folder but also creates another folder with a database that contains
+  the metadata to use with Engine DJ.
 
 Crates vs. Playlists
 --------------------
